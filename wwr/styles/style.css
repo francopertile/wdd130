@@ -214,6 +214,55 @@ nav {
 }
 
 
+/* Here start the css for rivers.html */
+
+.grid-title {
+    color: white;
+    font-family: 'Roboto', 'Anton', 'sans-serif';
+    font-size: 2.6em;
+    margin-top: -200px;
+}
+#grid-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 1px;
+}
+#grid-img {
+    width: 100%;
+}
+.river-home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.river-fork-card {
+    margin: 100px 0 0 0;
+    grid-column: 4/8;
+    grid-row: 1/2;
+}
+.river-gray-card {
+    margin: 0px 0;
+    grid-column: 4/8;
+    grid-row: 3/4;
+}
+.river-canyon-card {
+    margin: 150px 0;
+    grid-column: 4/8;
+    grid-row: 2/3;
+}
+.river-card-img {
+    width: 100%;
+    border: 10px solid #000000;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.fork-text {
+    text-align: left;
+    width: 120%;
+}
+.gray-text {
+    text-align: left;
+    width: 120%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
