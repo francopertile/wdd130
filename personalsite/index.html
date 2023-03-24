@@ -1,72 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Homepage</title>
+    <title>Frank Pertile Developer | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-      <div class="header-container">
-        <img src="https://francopertile.github.io/wdd130/personalsite/images/logo_site.png" alt="Hero Image">
-        <nav>
-          <ul>
-            <li><a href="#" target="_blank">About Me</a></li>
-            <li><a href="#" target="_blank">Blog</a></li>
-            <li><a href="#" target="_blank">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="hero">
-        <img src="https://francopertile.github.io/wdd130/personalsite/images/homepage2.jpg" alt="Hero Image" width="100%" height="500">
-        <h1>Hello!</h1>
-        <h2>I'm Frank Pertile</h2>
-        <h3>I'm a web developer based in Asunción, Paraguay. Highly excited on designing and developing custom websites</h3>
-      </section>
-      <section class="logos">
-        <div class="logo-container">
-          <img src="https://4.bp.blogspot.com/-K3xPJlyU5mk/XGfNIFz6yyI/AAAAAAAAR80/A4JTnhu4ilUdnQ3TgtgE414oRw55owL8QCLcBGAs/s1600/HTML%2B5.png" alt="Logo 1">
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="https://francopertile.github.io/wdd130/personalsite/images/logo_site.png" alt="Logo Image">
+            </a>
+            <nav>
+                <a href="index.html">About Me</a>
+                <a href="rivers.html">Blog</a>
+                <a href="site-plan-rafting.html">Contact</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="https://francopertile.github.io/wdd130/personalsite/images/homepage2.jpg" alt="working code">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Hello! I'm Frank Pertile</h1>
+                <h3>I'm a web developer based in Asunción, Paraguay. Highly excited on designing and developing custom websites</h3>
+                <div class='button-box'>
+                    <a class='book' href="contactus.html">About Me</a>
+                </div>
+            </section>
         </div>
-        <div class="logo-container">
-          <img src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-1536x870.png" alt="Logo 2">
-        </div>
-        <div class="logo-container">
-          <img src="https://pluspng.com/img-png/logo-javascript-png-free-vector-logo-javascript-300.png" alt="Logo 3">
-        </div>
-      </section>
-      <section class="paragraph">
-        <p>As a Bachelor's student, I am dedicated to mastering HTML, CSS, and JavaScript to create responsive designs and high-quality code for web pages. 
-        Despite being a junior developer, I have gained hands-on experience through coursework and personal projects.
-        I am passionate about web development and determined to continue improving my skills, making me a valuable asset to any web development team</p>
-      </section>
-      <section class="image-paragraph">
-        <img src="https://francopertile.github.io/wdd130/personalsite/images/aboutme2.jpg" alt="Image">
-        <p>I have developed a strong foundation in professional skills and team skills that have prepared me for the demands of web development team work and tight schedules. 
-            Through my coursework in web development, I have gained technical skills in creating responsive designs and writing high-quality code for web pages. 
-            In addition, my skills in effective communication, collaboration, and time management have taught me the importance of working effectively in a team environment, meeting deadlines, and adapting to changing priorities. 
-            I am confident in my ability to apply these skills to real-world web development projects and am eager to continue growing as a developer.</p>
-      </section>
-    </main>
-    <footer>
-      <div class="footer-container">
-        <nav>
-          <ul>
-            <li><a href="https://francopertile.github.io/wdd130/personalsite/site-plan.html" target="_blank">Site Plan</a></li>
-            <li><a href="#" target="_blank">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="social-media">
-          <a href="#"><img src="facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="twitter.png" alt="Twitter"></a>
-          <a href="#"><img src="instagram.png" alt="Instagram"></a>
-        </div>
-        <div class="logo">
-          <a href="#">Logo</a>
-        </div>
-      </div>
-    </footer>
-  </body>
+        <main class="home-grid">
+            <section class="html-card">
+                <img class="html-img" src="https://4.bp.blogspot.com/-K3xPJlyU5mk/XGfNIFz6yyI/AAAAAAAAR80/A4JTnhu4ilUdnQ3TgtgE414oRw55owL8QCLcBGAs/s1600/HTML%2B5.png" alt="html skill">
+            </section>
+            <section class="css-card">
+                <img class="css-img" src="https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-1536x870.png" alt="css skill">
+            </section>
+            <section class="javascript-card">
+                <img class="javascript-img" src="https://pluspng.com/img-png/logo-javascript-png-free-vector-logo-javascript-300.png" alt="script skill">
+            </section>
+            <section class="paragraph">
+                <p>As a Bachelor's student, I am dedicated to mastering HTML, CSS, and JavaScript to create responsive designs and high-quality code for web pages. 
+                Despite being a junior developer, I have gained hands-on experience through coursework and personal projects.
+                I am passionate about web development and determined to continue improving my skills, making me a valuable asset to any web development team</p>
+              </section>
+            <div id="background"></div>
+            <img class="developerwork" src="https://francopertile.github.io/wdd130/personalsite/images/aboutme2.jpg" alt="developer desk">
+            <section class="msg">
+                <p>I have developed a strong foundation in professional skills and team skills that have prepared me for the demands of web development team work and tight schedules. 
+                    Through my coursework in web development, I have gained technical skills in creating responsive designs and writing high-quality code for web pages. 
+                    In addition, my skills in effective communication, collaboration, and time management have taught me the importance of working effectively in a team environment, meeting deadlines, and adapting to changing priorities. 
+                    I am confident in my ability to apply these skills to real-world web development projects and am eager to continue growing as a developer.</p>
+                <a class='AboutMe' href="aboutme.html">About Me</a>
+            </section>
+        </main>
+        <footer>
+            <p>Frank Developer &copy; 2023 - Franco Pertile</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="https://francopertile.github.io/wdd130/wwr/images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="https://francopertile.github.io/wdd130/wwr/images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="https://francopertile.github.io/wdd130/wwr/images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
