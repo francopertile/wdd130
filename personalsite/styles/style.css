@@ -144,7 +144,7 @@ h4 {
     padding-bottom: 15px;
 }
 .logo {
-    width: 80px;
+    width: 150px;
 }
 .icon {
     width: 80px;
@@ -245,6 +245,88 @@ nav {
     background-color: #1E1E1E;
 }
 
+/*  HERE STARTS THE CSS SETTINGS FOR THE ABOUT ME PAGE */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 1087px;
+    height: 250px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    width: 1087px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00E7FF;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.resume-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 2em;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 4em;
+}
+
+.personal-info,
+.skills,
+.experience,
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border: 6px solid #FFC400;
+    margin-bottom: 1em;
+}
+#hero-imgabout {
+    width: 1000px;
+    height: 250px;
+}
+h3 {
+    margin: 0 0 1em;
+    color: #191919;
+}
+
+.profile-pic {
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 6px solid #FFC400;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -284,5 +366,13 @@ nav {
     }
     footer {
         margin-top: 25px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .resume-container {
+        display: block;
+    }
+    .profile-pic {
+        display: none;
     }
 }
