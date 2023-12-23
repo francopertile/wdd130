@@ -1,0 +1,51 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f0ff; /* Light blue background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+h1 {
+    background-color: #004080; /* Dark blue background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #0073e6; /* Medium blue background */
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #0059b3; /* Slightly darker blue for links */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: #0066cc; /* Lighter blue on hover */
+    color: #000; /* Dark font color on hover */
+    transform: scale(1.05); /* Slightly larger */
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
